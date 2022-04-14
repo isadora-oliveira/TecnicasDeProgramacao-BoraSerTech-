@@ -23,14 +23,14 @@ preco (crescente), nome da companhia (crescente) e criar 2 arquivos de saída:
  
 Detalhes:
 
-*A Data/Hora estão com o fuso horário, de acordo com o seguinte formato: dia/mes/ano hora:minuto:segundo (fuso horário). Ex.: 13/03/2022 10:15:30 (-03:00)
-*Price: em reais (R$)
-*Utilizar a API Java Time
-*Utilizar a API IO ou NIO ou NIO2 para leitura e escrita de arquivos
-*Utilizar mandatoriamente Streams/Lambdas para realizar operações sobre os elementos do arquivo: 
+- A Data/Hora estão com o fuso horário, de acordo com o seguinte formato: dia/mes/ano hora:minuto:segundo (fuso horário). Ex.: 13/03/2022 10:15:30 (-03:00)
+- Price: em reais (R$)
+- Utilizar a API Java Time
+- Utilizar a API IO ou NIO ou NIO2 para leitura e escrita de arquivos
+- Utilizar mandatoriamente Streams/Lambdas para realizar operações sobre os elementos do arquivo: 
 desde agrupamentos, cálculo de tempo de voo até o cálculo das informações do resumo
-*Arquivos de entrada e saída no formato ".csv", charSet UTF-8
-*Caracter separador de colunas: ";"
-*Cabeçalhos dos arquivos gerados:
+- Arquivos de entrada e saída no formato ".csv", charSet UTF-8
+- Caracter separador de colunas: ";"
+- Cabeçalhos dos arquivos gerados:
   1º arquivo: origin;destination;airline;departure;arrival;price;time
   2º arquivo: origin;destination;shortest_flight(h);longest_fight(h);cheapest_flight;most_expensive_flight;average_time;average_price
